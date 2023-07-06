@@ -9,10 +9,12 @@ function App() {
   return (
     <>
       <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="*" element={<Navigate to="/" replace={true} />} />
-      </Routes>
+      <div className="app">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="*" element={<Navigate to="/" replace={true} />} />
+        </Routes>
+      </div>
       <Footer />
     </>
   );
