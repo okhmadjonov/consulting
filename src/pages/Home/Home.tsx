@@ -4,6 +4,7 @@ import Banner from "./components/Banner/Banner";
 import WhatWeDo from "./components/WhatWeDo/WhatWeDo";
 import Apart from "./components/Apart/Apart";
 import Services from "./components/Services/Services";
+import Experience from "./components/Experience/Experience";
 const Home = () => {
   return (
     <div className="home">
@@ -11,6 +12,7 @@ const Home = () => {
       <WhatWeDo />
       <Apart />
       <Services />
+      <Experience />
     </div>
   );
 };
