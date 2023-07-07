@@ -1,0 +1,119 @@
+.services {
+  width: 100%;
+  margin-top: 35px;
+  .container {
+    .services__wrapper {
+      width: 100%;
+      height: 2316px;
+
+      .services__title {
+        width: 100%;
+        height: 10%;
+        display: flex;
+        align-items: center;
+        font-family: "EB Garamond", sans-serif;
+        font-weight: 500;
+        font-size: 4.5em;
+        line-height: 80px;
+        color: #000;
+      }
+      .services__body {
+        width: 100%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .services__body__card {
+          width: 100%;
+          height: 33%;
+          padding: 80px 56px;
+
+          .sb__card-inner {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .card__inner-circle {
+              width: 40%;
+              height: 100%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+            .card__inner-text {
+              width: 55%;
+              height: 100%;
+
+              padding: 0 112px;
+
+              .card__text__title {
+                width: 100%;
+                height: 56px;
+                display: flex;
+                align-items: center;
+                font-family: "EB Garamond", sans-serif;
+                font-weight: 600;
+                font-size: 2.5em;
+                letter-spacing: 2%;
+              }
+
+              .card__subtitle__items {
+                width: 100%;
+                height: auto;
+                margin-top: 40px;
+                .item__dot__text {
+                  width: 100%;
+                  height: 34px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: flex-start;
+                  gap: 20px;
+                  margin: 15px 0;
+
+                  .it__dot {
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 50%;
+                    background-color: #000;
+                  }
+                  .it__text {
+                    font-family: "Mulish", sans-serif;
+                    font-size: 1.28em;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 34px;
+                  }
+                }
+              }
+              .more__info {
+                margin-top: 48px;
+                text-decoration: none;
+                color: #000;
+                width: 187px;
+                height: 64px;
+                border-radius: 32px;
+                border: 1px solid black;
+                gap: 12px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-family: "Mulish", sans-serif;
+                font-weight: 500;
+                font-size: 1.25em;
+                line-height: 28px;
+                &:hover {
+                  background-color: #000;
+                  color: #fff;
+                  transition: all 0.5s ease-in-out;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

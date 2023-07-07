@@ -4,6 +4,7 @@ import apart1 from "../../../../assets/images/illusion/apart1.png";
 import apart2 from "../../../../assets/images/illusion/apart2.png";
 import apart3 from "../../../../assets/images/illusion/apart3.png";
 import { NavLink } from "react-router-dom";
+import { BsArrowRight } from "react-icons/bs";
 const Apart = () => {
   return (
     <div className="apart">
@@ -47,7 +48,7 @@ const Apart = () => {
           </div>
           <div className="consultation__btn">
             <NavLink to="/" className="get__free__consultation">
-              Get free consultation
+              Get free consultation <BsArrowRight />
             </NavLink>
           </div>
         </div>
