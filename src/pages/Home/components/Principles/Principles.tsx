@@ -1,6 +1,7 @@
 import React from "react";
 import "./Principles.scss";
 import star from "../../../../assets/images/star.png";
+import exp_shape from "../../../../assets/images/exp_shape.png";
 import { NavLink } from "react-router-dom";
 import { BsChevronRight } from "react-icons/bs";
 const Principles = () => {
@@ -75,6 +76,9 @@ const Principles = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="exp__shape">
+        <img src={exp_shape} alt="Expe" />
       </div>
     </div>
   );

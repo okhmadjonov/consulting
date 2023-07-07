@@ -1,12 +1,13 @@
 .principles {
   width: 100%;
-  height: 1050px;
-  margin-top: 48px;
+  height: auto;
+  margin-top: 88px;
 
   .container {
     .principles__container {
       width: 100%;
       height: 100%;
+
       .pc__star {
         width: 100%;
         height: 15%;
@@ -82,6 +83,17 @@
           background-color: #f6f6f6;
         }
       }
+    }
+  }
+  .exp__shape {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+
+    img {
+      margin-top: 80px;
+      width: 100%;
+      height: 100%;
     }
   }
 }
