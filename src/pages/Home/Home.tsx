@@ -7,6 +7,7 @@ import Services from "./components/Services/Services";
 import Experience from "./components/Experience/Experience";
 import Principles from "./components/Principles/Principles";
 import HomeClients from "./components/HomeClients/HomeClients";
+import HomeForm from "./components/HomeForm/HomeForm";
 const Home = () => {
   return (
     <div className="home">
@@ -17,6 +18,7 @@ const Home = () => {
       <Experience />
       <Principles />
       <HomeClients />
+      <HomeForm />
     </div>
   );
 };
