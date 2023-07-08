@@ -6,6 +6,7 @@ import Apart from "./components/Apart/Apart";
 import Services from "./components/Services/Services";
 import Experience from "./components/Experience/Experience";
 import Principles from "./components/Principles/Principles";
+import HomeClients from "./components/HomeClients/HomeClients";
 const Home = () => {
   return (
     <div className="home">
@@ -15,6 +16,7 @@ const Home = () => {
       <Services />
       <Experience />
       <Principles />
+      <HomeClients />
     </div>
   );
 };

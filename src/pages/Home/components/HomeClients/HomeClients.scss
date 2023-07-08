@@ -1,0 +1,47 @@
+.homeclients {
+  width: 100%;
+  height: 955px;
+  margin-top: 150px;
+
+  .container {
+    .homeclients__container {
+      width: 100%;
+      height: 100%;
+      //   border: 1px solid black;
+      .homeclients__title {
+        width: 100%;
+        height: 240px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "EB Garamond";
+        font-weight: 500;
+        font-size: 4.5em;
+        line-height: 80px;
+        color: #000;
+        // border: 1px solid black;
+      }
+      .homeclients__img {
+        width: 100%;
+        height: 183px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // border: 1px solid black;
+      }
+      .homeclients__subtitle {
+        width: 66%;
+        height: 432px;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        font-family: "Mulish", sans-serif;
+        font-weight: 400;
+        font-size: 1.28em;
+        line-height: 40px;
+        color: #000;
+        // border: 1px solid black;
+      }
+    }
+  }
+}
