@@ -1,0 +1,76 @@
+.homecontact {
+  width: 100%;
+  height: 490px;
+  margin-top: 40px;
+  .container {
+    .homecontact__wrapper {
+      width: 100%;
+      height: 100%;
+
+      .homecontact__title {
+        width: 803px;
+        height: 240px;
+        margin: 0 auto;
+        font-family: "EB Garamond", sans-serif;
+        font-weight: 500;
+        font-size: 4.5em;
+        line-height: 80px;
+        color: #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .homecontact__icons {
+        width: 803px;
+        height: 170px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+
+        .hc__p {
+          font-size: 1.5em;
+        }
+        .hc__icon {
+          width: 240px;
+          height: 80px;
+          border-radius: 64px;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 8px;
+          font-family: "Mulish", sans-serif;
+          font-weight: 500;
+          font-size: 1.5em;
+          line-height: 28px;
+          text-decoration: none;
+          color: #fff;
+          &:hover {
+            background-color: #000;
+            transition: all 0.5s ease-in-out;
+          }
+        }
+        .whatsapp {
+          background-color: #71cf5b;
+        }
+        .telegram {
+          background-color: #53aae3;
+        }
+        .email {
+          background-color: #a0a8b5;
+        }
+      }
+      .homecontact__subtitle {
+        width: 805px;
+        height: 80px;
+        margin: 0 auto;
+        font-family: "Mulish", sans-serif;
+        font-weight: 400;
+        font-size: 1.625em;
+        display: flex;
+        text-align: center;
+        color: #000;
+      }
+    }
+  }
+}

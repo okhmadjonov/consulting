@@ -8,6 +8,7 @@ import Experience from "./components/Experience/Experience";
 import Principles from "./components/Principles/Principles";
 import HomeClients from "./components/HomeClients/HomeClients";
 import HomeForm from "./components/HomeForm/HomeForm";
+import HomeContact from "./components/HomeContact/HomeContact";
 const Home = () => {
   return (
     <div className="home">
@@ -19,6 +20,7 @@ const Home = () => {
       <Principles />
       <HomeClients />
       <HomeForm />
+      <HomeContact />
     </div>
   );
 };
